@@ -1,0 +1,86 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-20T20:45:22.617Z",
+        "line": 5,
+        "name": "First steps",
+        "description": "",
+        "id": "cucumber-first-test;first-steps",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user school name",
+            "match": {
+              "location": "StepDefinitions.CucumberTestSteps.the_user_school_name()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user print the name",
+            "match": {
+              "location": "StepDefinitions.CucumberTestSteps.the_user_print_the_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user print the last name",
+            "match": {
+              "location": "StepDefinitions.CucumberTestSteps.the_user_print_the_last_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user print the city",
+            "match": {
+              "location": "StepDefinitions.CucumberTestSteps.the_user_print_the_city()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cicd"
+          }
+        ]
+      }
+    ],
+    "name": "Cucumber first test",
+    "description": "",
+    "id": "cucumber-first-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/CucumberTest.feature",
+    "tags": [
+      {
+        "name": "@cicd",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
