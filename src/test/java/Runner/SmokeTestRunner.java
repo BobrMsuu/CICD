@@ -20,4 +20,5 @@ public class SmokeTestRunner {
     // I want to run all feature file or scenarios which have a smoke tag(annotation)
     //adding comments to see jenkins triggered
     //adding second command to test jenkins #2
+    //3
 }
