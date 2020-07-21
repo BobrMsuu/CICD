@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CucumberDemoForCICD" />
+        <module name="CICD" />
         <module name="CucumberCICD" />
         <module name="CucumberBatch4" />
       </profile>
